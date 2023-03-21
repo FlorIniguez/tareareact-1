@@ -1,15 +1,17 @@
 .lista-cards {
     display: flex;
     flex-wrap: wrap;
-   
+
 }
+
 .negro {
     color: #1f1f1f;
-  
+
 }
+
 .naranja {
     color: #ff8126;
-  
+
 }
 
 span {
@@ -26,12 +28,13 @@ span {
     text-align: center;
     margin-bottom: 3%;
     margin-top: 5%;
+    font-family: 'Andika', sans-serif;
     font-family: 'Cormorant', serif;
     font-size: 40px;
     font-weight: 700;
     letter-spacing: 0em;
- 
-    
 
- 
+
+
+
 }

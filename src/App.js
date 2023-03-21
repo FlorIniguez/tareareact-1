@@ -35,7 +35,9 @@ function App() {
     }  ]
   return (
     <div className='tarjeta final'>
+      <div className='titulo-principal'>
       <span className='negro'> Latest </span>  <span className='naranja'> Offers </span>
+      </div>
     <div className="lista-cards">
     {dataCard.map((card, id) => (
       <Card
