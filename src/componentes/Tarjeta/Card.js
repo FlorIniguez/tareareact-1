@@ -12,11 +12,15 @@ function Card (props) {
 
     <img className='img-card' src={imgUrl} alt={titulo}/>
    
-    <div className='texto-card'>
-      <p> {titulo} </p>
-      <h3 className='precio'>{precio} </h3>
-      <h3 className='antes'>{antes} </h3>
+ 
+      <p className='titulo'> {titulo} </p>
+
+      <div className='texto-card'>
+      <span className='precio'>{precio} </span>
+      <span className='antes'>{antes} </span>
       </div>
+      <button className='btn'> Quick Shop </button>
+      
   </div>
   
 

@@ -15,7 +15,7 @@ function App() {
     {
       id: 2,
       imgUrl :'https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8M3x8fGVufDB8fHx8&w=1000&q=80',
-      titulo: '',
+      titulo: 'Baked Pancakes',
       precio: '$35.99',
       antes: '$44.99'
     },
@@ -34,6 +34,8 @@ function App() {
       antes: '$29.99'
     }  ]
   return (
+    <div className='tarjeta final'>
+      <span className='negro'> Latest </span>  <span className='naranja'> Offers </span>
     <div className="lista-cards">
     {dataCard.map((card, id) => (
       <Card
@@ -45,9 +47,12 @@ function App() {
       />
     ))}
   </div>
+  </div>
   )
 
 
 }
+
+
 
 export default App;
