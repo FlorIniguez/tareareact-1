@@ -1,0 +1,19 @@
+
+.titulo-texto{
+    width: 770px ;
+    font-family: 'Cormorant', serif;
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 0em;
+    text-align: center;
+    margin: 5% auto;
+}
+.negro {
+    color: #1f1f1f;
+
+}
+
+.naranja {
+    color: #ff8126;
+
+}

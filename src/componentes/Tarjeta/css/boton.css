@@ -1,0 +1,14 @@
+.btn {
+    width: 230px;
+    height: 40px;
+    background: #FF8126;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    margin-top: 4%;
+    margin-left: 7%;
+}

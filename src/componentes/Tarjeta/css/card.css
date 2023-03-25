@@ -1,0 +1,23 @@
+
+.contenedor {
+    width: 270px;
+    height: 332px;
+    background: #F7F5F0;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+    border-radius: 20px;
+    margin:1%;
+    
+}
+
+
+.texto-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+
+
+

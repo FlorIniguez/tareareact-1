@@ -1,30 +1,29 @@
 import React from 'react'
-import './card.css'
+import './css/card.css'
+import TarjetaNombre from './TarjetaNombre'
+import TarjetaOferta from './TarjetaOferta'
+import TarjetaPrecio from './TarjetaPrecio'
+import TarjetaImagen from './TarjetaImagen'
+import TarjetaBoton from './TarjetaBoton'
 
 
 
 
-function Card (props) {
-  const {imgUrl,titulo,precio,antes} = props;
+function Card({producto}) {
   return (
     <>
-  <div className='contenedor'>
-
-    <img className='img-card' src={imgUrl} alt={titulo}/>
-   
- 
-      <p className='titulo'> {titulo} </p>
-
-      <div className='texto-card'>
-      <span className='precio'>{precio} </span>
-      <span className='antes'>{antes} </span>
+      <div className='contenedor'>
+        <TarjetaImagen imgUrl={producto.imgUrl}/>
+        <TarjetaNombre nombre={producto.titulo} />
+        <div className='texto-card'>
+        <TarjetaOferta precio={producto.precio} />
+        <TarjetaPrecio antes={producto.antes} />
+        </div>
+        <TarjetaBoton />
       </div>
-      <button className='btn'> Quick Shop </button>
-      
-  </div>
-  
-
-  </>
-)};
+     
+    </>
+  )
+};
 
 export default Card

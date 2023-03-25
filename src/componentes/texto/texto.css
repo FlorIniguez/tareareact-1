@@ -1,0 +1,7 @@
+.contenedor-texto {
+width: 210px;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+
+ }

@@ -1,0 +1,30 @@
+
+.titulo-principal {
+    margin-bottom: 3%;
+    margin-top: 1%;
+    font-family: 'Andika', sans-serif;
+    font-family: 'Cormorant', serif;
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 0em;
+    text-align: center;
+}
+.negro {
+    color: #1f1f1f;
+
+}
+
+.naranja {
+    color: #ff8126;
+
+}
+
+span {
+    width: 206px;
+    height: 40px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+
+}

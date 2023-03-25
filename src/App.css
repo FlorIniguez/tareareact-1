@@ -1,40 +1,18 @@
-.lista-cards {
+.lista-cards  {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-evenly;
 
 }
 
-.negro {
-    color: #1f1f1f;
-
+.tarjeta-final {
+    margin: 3%;
 }
 
-.naranja {
-    color: #ff8126;
-
+.info-card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+   align-items: flex-start;
 }
 
-span {
-    width: 206px;
-    height: 40px;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 40px;
-    line-height: 48px;
-
-}
-
-.titulo-principal {
-    text-align: center;
-    margin-bottom: 3%;
-    margin-top: 5%;
-    font-family: 'Andika', sans-serif;
-    font-family: 'Cormorant', serif;
-    font-size: 40px;
-    font-weight: 700;
-    letter-spacing: 0em;
-
-
-
-
-}
