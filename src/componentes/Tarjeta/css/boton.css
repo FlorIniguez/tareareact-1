@@ -1,5 +1,5 @@
 .btn {
-    width: 230px;
+    width: 80%;
     height: 40px;
     background: #FF8126;
     border-radius: 5px;
@@ -10,5 +10,5 @@
     font-weight: 500;
     font-size: 20px;
     margin-top: 4%;
-    margin-left: 7%;
+    margin-left: 9%;
 }

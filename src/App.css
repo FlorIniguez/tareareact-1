@@ -1,4 +1,4 @@
-.lista-cards  {
+.lista-cards {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -11,8 +11,5 @@
 
 .info-card{
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-   align-items: flex-start;
 }
 

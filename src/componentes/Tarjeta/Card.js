@@ -9,19 +9,19 @@ import TarjetaBoton from './TarjetaBoton'
 
 
 
-function Card({producto}) {
+function Card({ producto }) {
   return (
     <>
       <div className='contenedor'>
-        <TarjetaImagen imgUrl={producto.imgUrl}/>
+        <TarjetaImagen imgUrl={producto.imgUrl} />
         <TarjetaNombre nombre={producto.titulo} />
         <div className='texto-card'>
-        <TarjetaOferta precio={producto.precio} />
-        <TarjetaPrecio antes={producto.antes} />
+          <TarjetaOferta precio={producto.precio} />
+          <TarjetaPrecio antes={producto.antes} />
         </div>
         <TarjetaBoton />
       </div>
-     
+
     </>
   )
 };

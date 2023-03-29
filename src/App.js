@@ -23,7 +23,7 @@ function App() {
   </div>
   </div>
 
-  <div className='card-2'>
+  <div>
   <Titulotexto/>
 
   <div className="info-card">
