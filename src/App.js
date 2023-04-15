@@ -5,13 +5,14 @@ import Titulo from './componentes/Titulo principal/Titulo'
 import Texto from './componentes/texto/Texto';
 import { dataTexto } from './componentes/dataTexto';
 import Titulotexto from './componentes/texto/Titulotexto';
+import Carrito from './componentes/carrito/Carrito'
 
 
 
 function App() {
-  
   return (
     <>
+    <Carrito/>
     <div className='tarjeta final'>
       <Titulo/>
       
